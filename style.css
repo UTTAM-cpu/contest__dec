@@ -1,0 +1,85 @@
+.nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    position: sticky ;
+    height: 52px;
+    align-items: center;
+    box-sizing: border-box;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -8px;
+  }
+.home{
+    justify-content: end;
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    right: 15px;
+    column-gap: 27px;
+    font-weight: bold;
+}
+.company{
+    font-weight: bold;
+    position: relative;
+    left: 15px;
+}
+.company:hover{
+    color: rgba(207, 211, 203, 0.952);
+}
+.m1:hover{
+    color: rgba(207, 211, 203, 0.952);
+}
+.para{
+width: 363px;
+line-height: 23px;
+margin-left: 37px;
+}
+.section_1{
+    display: flex;
+    justify-content:space-between;
+    position: relative;
+}
+img{
+    top: 10px;
+    position: absolute;
+    right: 37px;
+    height: 500px;
+    width: 700px;
+}
+button{
+    background-color: black;
+    position: relative;
+    left: 34px;
+    margin-top: 10px;
+    height: 25px;
+    width: 120px;
+    font-size: 5pxpx;
+}
+button a{
+    color: white;
+}
+.section_2{
+    display: flex;
+    position: relative;
+    height: 800px;
+    flex-wrap: wrap;
+    top: 200px;
+    justify-content: space-evenly;
+    column-gap: 10px;
+    left: 35px;
+
+}
+img.images{
+    height: 350px;
+    width: 362px;
+    position: relative;
+    
+  }
+  h1.last{
+    position: relative;
+    left: 35px;
+    top: 190px;
+  }
+
+
